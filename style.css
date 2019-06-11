@@ -108,6 +108,21 @@ li{
   height: 4px;
   border-radius: 0.8rem;
 }
+
+.bar.half{
+  width: 50%;
+}
+
+.bar.start{
+  transform-origin: right;
+  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+.bar.end{
+  align-self: flex-end;
+  transform-origin: left;
+  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
 /* -- About -- */
 /* -- Services -- */
 /* -- Portfoilo -- */
