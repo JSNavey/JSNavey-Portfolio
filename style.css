@@ -70,6 +70,7 @@ li{
   padding: 1rem;
 }
 
+/* This is a non-standardized property, but it was invented to do jknockout text. Can pair it with -webkit-text-fill-color: transparent; so that you're only "hiding" the text in a browser that can do the clipping. */
 .nav-link:hover,
 .nav-link:focus{
   background: linear-gradient(#ffe838, #fd57bf);
@@ -77,6 +78,36 @@ li{
   -webkit-background-clip: text;
 }
 
+.top-nav.open{
+  top: 0;
+  border-radius: initial;
+}
+
+/* hamburger nemu bars */
+.menu-toggler{
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+  width:5rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 999;
+  transition: transform 650ms ease-out;
+}
+
+.menu-toggler.open{
+  transform: rotate(-45deg);
+}
+
+.bar{
+  background: linear-gradient(to right, #ffe838, #fd57bf);
+  width: 100%;
+  height: 4px;
+  border-radius: 0.8rem;
+}
 /* -- About -- */
 /* -- Services -- */
 /* -- Portfoilo -- */
