@@ -14,7 +14,9 @@ html{
 body{
   width: 100%;
   height: 100%;
-  background-color: #373854;
+  background-color: #11113c;
+  /* background: url('images/art-background.jpg') no-repeat center;
+  background-size: cover; */
 }
 
 a{
