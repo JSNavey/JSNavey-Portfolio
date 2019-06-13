@@ -47,6 +47,7 @@ header{
   height: 100vh;
   position: fixed;
   top: -100vh;
+  z-index: 100;
   background-color: #16162d;
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
@@ -134,6 +135,31 @@ li{
 .open .bar.end{
   transform: rotate(-450deg) translateX(-0.8rem);
 }
+
+.landing-text{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 1;
+}
+
+.landing-text h1{
+  font-size: 18rem;
+  font-family: 'Pattaya', sans-serif;
+  background: linear-gradient(#ffe838, #fd57bf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  user-select: none;
+}
+
+.landing-text h5{
+  font-size: 3rem;
+  font-weight: 300;
+}
+
 /* -- About -- */
 /* -- Services -- */
 /* -- Portfoilo -- */
