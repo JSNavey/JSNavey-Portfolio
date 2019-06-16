@@ -266,8 +266,44 @@ li{
   color: #33ccff;
 }
 /* -- Services -- */
+/* Using repeat function that is a functional notation that defines a size range greater than or equal to min and less than or equal to max. If max is smaller than min, then max is ignored and the function is treated as min. Using this, we don't have to use media query as it's already responsive. */
 .my-skills{
-  
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2.5rem;
+  text-align: center;
+}
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.skill h1{
+  text-transform: uppercase;
+  margin: 2rem -2px 2rem 0;
+  letter-spacing: 2px;
+}
+
+.icon-container{
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid #ffe838;
+  background-color: #fd57bf;
+  margin-bottom: 2rem;
+  transform: rotate(45deg);
+  display: flex;
+}
+
+.icon-container i{
+  color: #ffe838;
+  font-size: 5rem;
+  margin: auto;
+  transform: rotate(-45deg);
 }
 /* -- Portfoilo -- */
 /* -- Experience -- */
