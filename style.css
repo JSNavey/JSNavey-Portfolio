@@ -356,6 +356,8 @@ li{
 
 .portfolio-description .cta:hover{
   color: #2f67cd;
+  border: 1px solid whitesmoke;
+  padding: 0.5rem 1rem;
 }
 /* -- Experience -- */
 /* -- Contact -- */
