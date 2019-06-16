@@ -350,17 +350,15 @@ li{
   margin-top: 2.5rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #384fff;
+  color: #ffe838;
   transition: color 650ms;
 }
 
 .portfolio-description .cta:hover{
-  color: #2f67cd;
-  border: 1px solid whitesmoke;
+  border: 1px solid #fd57bf;
   padding: 0.5rem 1rem;
 }
 /* -- Experience -- */
-/** - Timeline - **/
 .timeline ul{
   border-left: 4px solid #ffe838;
   /* border-radius: 0.8rem; */
@@ -420,5 +418,42 @@ li{
   background-color: #11113c;
 }
 /* -- Contact -- */
+/* .contact{
+  background-color: #11113c; 
+} */
 
+form{
+  width: 70%;
+  margin: 0 auto;
+}
 
+form label{
+  font-size: 1.5rem;
+}
+
+input,
+select,
+textarea{
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 5px;
+  outline-color:#fd57bf;
+  border: none;
+}
+
+input[type='submit']{
+  width: initial;
+  padding: 1rem 2.5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+  background-color: #fd57bf;
+  color: #ffe838;
+  cursor: pointer;
+  transition: background-color 650ms;
+}
+
+input[type='submit']:hover{
+  color: #fd57bf;
+  background-color: #ffe838;
+}
