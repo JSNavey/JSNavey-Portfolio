@@ -513,6 +513,7 @@ input[type='submit']:hover{
     font-size: 1.7rem;
   }
 
+  /* nav list cover */
   .nav-list{
     flex-direction: column;
   }
@@ -525,7 +526,37 @@ input[type='submit']:hover{
     font-size: 4.5rem;
   }
 
+  /* About */
   .about-heading h1{
     font-size: 8rem;
   }
+
+  .section-heading h1{
+    font-size: 3rem;
+  }
+
+  /* Social Media */
+  .about-details .nav-list{
+    flex-direction: initial;
+  }
+
+  .about-details li{
+    margin: 0 2rem;
+  }
+
+  .social-media i{
+    font-size: 3.5rem;
+  }
+
+  /* Services */
+  .icon-container{
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .icon-container i{
+    font-size: 3.5rem;
+  }
+
+  /* Experience */
 }
