@@ -20,7 +20,7 @@ body{
 }
 
 section{
-  padding: 6rem;
+  padding: 6rem 0;
 }
 
 a{
@@ -476,6 +476,8 @@ input[type='submit']:hover{
   right: 5rem;
   border-radius: 100%;
   display: flex;
+  cursor: pointer;
+  animation: pulse 2s infinite;
 }
 
 .up i{
@@ -486,4 +488,44 @@ input[type='submit']:hover{
 
 .copyright p{
   font-size: 1.4rem;
+}
+
+/* -- Animation -- */
+@keyframes pulse{
+  0%{
+    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+  }
+  70%{
+    box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+  }
+  100%{
+    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+  }
+}
+
+/* -- Media Query -- */
+@media screen and (max-width: 768px) {
+  .landing-text h1{
+    font-size: 15rem;
+  }
+
+  .landing-text h5{
+    font-size: 1.7rem;
+  }
+
+  .nav-list{
+    flex-direction: column;
+  }
+
+  li{
+    margin: 2rem 0;
+  }
+
+  .nav-link{
+    font-size: 4.5rem;
+  }
+
+  .about-heading h1{
+    font-size: 8rem;
+  }
 }
