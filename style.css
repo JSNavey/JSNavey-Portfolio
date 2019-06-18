@@ -594,11 +594,52 @@ input[type='submit']:hover{
     font: 3.5rem;
   }
 
+  /* About */
   .about .container{
     flex-direction: column;
   }
 
   .profile-img{
     margin: 0 0 7rem 0;
+  }
+
+  .portfolio-item{
+    flex-direction: column;
+  }
+
+  .portfolio-img{
+    margin: 0 0 2rem 0;
+    order: 1;
+  }
+
+  .portfolio-description{
+    margin: 0;
+    order: 2;
+  }
+
+  .timeline ul{
+    width: 60%;
+    padding: 2rem;
+  }
+
+  .timeline p{
+    font-size: 1.6rem;
+  }
+
+  .timeline .date::before{
+    font-size: 1.5rem;
+    left: -18rem;
+  }
+
+  .timeline .date::after{
+    left: -3rem;
+  }
+
+  form{
+    width: 100%;
+  }
+
+  .up{
+    right: 2rem;
   }
 }
