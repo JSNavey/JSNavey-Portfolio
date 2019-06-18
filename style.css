@@ -503,8 +503,9 @@ input[type='submit']:hover{
   }
 }
 
-/* -- Media Query -- */
+/* === Media Query Tablet Version === */
 @media screen and (max-width: 768px) {
+
   .landing-text h1{
     font-size: 15rem;
   }
@@ -569,5 +570,35 @@ input[type='submit']:hover{
 
   .timeline .date::after{
     left: -5.9rem;
+  }
+}
+
+
+/* === Media Query Mobile Version === */
+@media screen and (max-width: 600px) {
+  
+  .menu-toggler{
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .landing-text h1{
+    font-size: 8rem;
+  }
+
+  .landing-text h5{
+    font-size: 1.4rem;
+  }
+
+  .nav-link{
+    font: 3.5rem;
+  }
+
+  .about .container{
+    flex-direction: column;
+  }
+
+  .profile-img{
+    margin: 0 0 7rem 0;
   }
 }
