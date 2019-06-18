@@ -76,12 +76,12 @@ img{
   border-radius: 0.8rem;
 }
 
-.section-heading h1::after{
+/* .section-heading h1::after{
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 100%;
   bottom: -1.1rem;
-}
+} */
 
 .section-heading h5{
   font-size: 1.6rem;
@@ -445,7 +445,7 @@ input[type='submit']{
   width: initial;
   padding: 1rem 2.5rem;
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   border-radius: 0.8rem;
   background-color: #fd57bf;
   color: #ffe838;
