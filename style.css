@@ -257,7 +257,7 @@ li{
 }
 
 .social-media i{
-  font-size: 5rem;
+  font-size: 4rem;
   transition: color 650ms;
 }
 
@@ -559,4 +559,15 @@ input[type='submit']:hover{
   }
 
   /* Experience */
+  .timeline ul{
+    margin: 0 0 0 auto;
+  }
+
+  .timeline .date::before{
+    left: -20rem;
+  }
+
+  .timeline .date::after{
+    left: -5.9rem;
+  }
 }
