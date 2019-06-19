@@ -60,6 +60,7 @@ img{
   margin-bottom: 1rem;
 }
 
+/* line and dot between section heading */
 .section-heading h1::before,
 .section-heading h1::after{
   content: "";
@@ -69,13 +70,14 @@ img{
   bottom: -0.5rem;
   background-color: rgba(255,255,255,0.75);
 }
-
+/* line size */
 .section-heading h1::before{
   width: 10rem;
   height: 3px;
   border-radius: 0.8rem;
 }
 
+/* dot size */
 /* .section-heading h1::after{
   width: 1.5rem;
   height: 1.5rem;

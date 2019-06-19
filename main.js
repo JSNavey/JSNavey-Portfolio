@@ -19,4 +19,14 @@ $(document).ready(function( ) {
       scrollTop: $($(this).attr('href')).offset().top
     }, 2000);
   });
+
+  // scroll up button
+  $('#up').on('click', function(event) {
+
+    event.preventDefault();
+    
+    $('html, body').animate({
+      scrollTop: 0
+    }, 2000);
+  });
 })
