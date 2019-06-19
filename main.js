@@ -29,4 +29,10 @@ $(document).ready(function( ) {
       scrollTop: 0
     }, 2000);
   });
+
+  // AOS
+  AOS.init({
+    easing: 'ease',
+    duration: 1800
+  })
 })
