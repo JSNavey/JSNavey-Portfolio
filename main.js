@@ -36,4 +36,12 @@ $(document).ready(function( ) {
     duration: 1800,
     once: true
   })
+
+  // submit the form
+  $('.submit').on('click', function(event){
+
+    event.preventDefault();
+
+    console.log('Button clicked!');
+  })
 })

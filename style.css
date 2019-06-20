@@ -456,9 +456,10 @@ select,
 textarea{
   width: 100%;
   padding: 1rem;
-  margin-bottom: 5px;
+  margin: 5px 0 10px 0;
   outline-color:#fd57bf;
   border: none;
+  border-radius: 0.3rem;
 }
 
 input[type='submit']{
