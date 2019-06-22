@@ -274,17 +274,15 @@ li{
 }
 
 .fa-github-square:hover{
-  color: #000000;
+  color: #b0b0b03a;
+  
 }
 
 .fa-linkedin:hover{
   color: #4875b4;
 }
 
-.fa-twitter-square:hover{
-  color: #33ccff;
-}
-/* -- Services -- */
+/* -- Skills -- */
 /* Using repeat function that is a functional notation that defines a size range greater than or equal to min and less than or equal to max. If max is smaller than min, then max is ignored and the function is treated as min. Using this, we don't have to use media query as it's already responsive. */
 .my-skills{
   margin-top: 10rem;
@@ -329,7 +327,7 @@ li{
   display: flex;
   text-align: center;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 .portfolio-item:last-child{
@@ -357,24 +355,23 @@ li{
   opacity: 0.4;
 }
 
+.portfolio-description .utilized{
+  margin-top: 2rem;
+}
+
 .portfolio-description .cta{
   display: inline-block;
   margin-top: 2.5rem;
   font-size: 1.6rem;
-  /* text-transform: uppercase; */
   color: #ffe838;
-  transition: color 650ms;
 }
 
 .portfolio-description .cta:hover{
-  /* border: 2px solid #fd57bf; */
   padding: 0.5rem 1rem;
 }
 /* -- Experience -- */
 .timeline ul{
   border-left: 4px solid #ffe838;
-  /* border-radius: 0.8rem; */
-  /* background-color: rgba(0,0,0,0.05); */
   position: relative;
   margin: 0 auto;
   text-align: left;
@@ -437,11 +434,8 @@ li{
   left: -8rem;
   background-color: #11113c;
 }
-/* -- Contact -- */
-/* .contact{
-  background-color: #11113c; 
-} */
 
+/* -- Contact -- */
 form{
   width: 70%;
   margin: 0 auto;
@@ -456,7 +450,7 @@ select,
 textarea{
   width: 100%;
   padding: 1rem;
-  margin: 5px 0 10px 0;
+  margin: 5px 0 15px 0;
   outline-color:#fd57bf;
   border: none;
   border-radius: 0.3rem;
@@ -465,7 +459,6 @@ textarea{
 input[type='submit']{
   width: initial;
   padding: 1rem 2.5rem;
-  margin-top: 1rem;
   font-size: 1.6rem;
   border-radius: 0.8rem;
   background-color: #fd57bf;
@@ -483,7 +476,7 @@ input[type='submit']:hover{
 .copyright{
   width: 100%;
   text-align: center;
-  background-color: #120312;
+  background-color: #07071a;
   padding: 2rem 0;
   position: relative;
 }
