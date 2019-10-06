@@ -1,5 +1,6 @@
 # Ja Navey Portfolio
 https://jsnavey.github.io/JSNavey-Portfolio/ 
+www.janavey.com
 
 Static portfoilo page, implement HTML5, CSS3, AOS library `https://github.com/michalsnik/aos` for animation and Font Awesome for icons.
 
